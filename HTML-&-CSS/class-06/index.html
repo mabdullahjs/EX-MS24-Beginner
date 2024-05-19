@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1>Hello Forms</h1>
-    <form>
+    <!-- <form action="/search" method="get">
         <label for="username">username:</label>
-        <input type="text" id="username" placeholder="username"> <br><br>
+        <input type="text" id="username" placeholder="username" required minlength="3" maxlength="7"> <br><br>
 
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="email"> <br><br>
@@ -20,12 +20,62 @@
         <label for="age">Age:</label>
         <input type="number" id="age" placeholder="age"><br><br>
 
+        <label>Favourite Food</label><br>
+
+        <label for="biryani">Biryani</label>
+        <input type="checkbox"  id="biryani" /><br />
+        <label for="korma">korma</label>
+        <input type="checkbox"  id="korma" /><br />
+        <label for="pulao">pulao</label>
+        <input type="checkbox"  id="pulao" /><br />
+        <label for="karahi">karahi</label>
+        <input type="checkbox"  id="karahi" /><br />
+
+        <select id="">
+            <option disabled>Select any value</option>
+            <option value="Sindh">Sindh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Balochistan" selected>Balochistan</option>
+            <option value="KPK">KPK</option>
+        </select>
+        <input type="file"id="">
+        <input type="date" name="" id="">
+        <input type="color" name="" id="">
+        <input type="range" name="" id="">
+        <input type="hidden" name="" id="">
+
+        <input type="submit">
+        <button type="submit">click</button>
+
         <label>Gender:</label> <br>
 
         <label for="male">male</label>
         <input type="radio" id="male" name="gender">
         <label for="female">female</label>
-        <input type="radio" id="female" name="gender">
-    </form>
+        <input type="radio" id="female" name="gender"> <br><br>
+
+        <label for="description">Description</label><br>
+        <textarea id="description" cols="40" rows="10"></textarea>
+    </form> -->
+
+    
+    <fieldset>
+        <legend>Login Form</legend>
+        <form>
+            <label for="email">email</label>
+            <input type="email" id="email"> <br><br>
+            <label for="password">password</label>
+            <input type="password" id="password"> <br><br>
+            <button>Login</button>
+        </form>
+    </fieldset>
+
+    {firstname
+    lastname
+    email
+    password
+    date of birth
+    profile picture} grouping
+
 </body>
 </html>
