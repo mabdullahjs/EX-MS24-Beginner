@@ -1,0 +1,115 @@
+/* body{
+    background-color: #38bdf8;
+}
+h1{
+    color: #000000;
+    text-align: center;
+} */
+
+/* relative units */
+/* absolute units */
+
+
+/* default font size is 16px */
+/* % */
+/* .parent{
+    border: 2px solid black;
+    width: 60%;
+}
+
+.children{
+    border: 1px dotted red;
+    width: 50%;
+} */
+
+
+/* vh , vw */
+
+/* .parent{
+    border: 2px solid black;
+    width: 200vw;
+    height: 200vh;
+}
+
+.children{
+    border: 1px dotted red;
+    width: 70vw;
+} */
+
+/* em, rem */
+
+/* h1{
+    font-size: 3em;
+}
+
+.para{
+    font-size: 1em;
+}
+.parent{
+    font-size: 50px;
+} */
+
+/* .inner-para{
+    font-size: 2rem;
+} */
+
+/* .inner-para{
+    font-size: 2rem;
+} */
+
+/* font size hamesha rem ma dena haa.. */
+/* border wagera hamesha pixel donga */
+/* box wagera percent ma define kro */
+
+
+/* html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 6rem;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+} */
+
+/* .parent{
+    width: 250px;
+    border: 2px solid red;
+    padding: 30px;
+    margin: 30px;
+} */
+@font-face {
+    font-family: 'robbins';
+    src: url('Reddit_Mono/RedditMono-VariableFont_wght.ttf');
+}
+
+html {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: robbins;
+    font-size: 62.5%;
+}
+h1{
+    font-weight: lighter;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    /* letter-spacing: 2rem; */
+    /* word-spacing: 5rem; */
+    text-align: center;
+}
+p{
+    border: 1px solid black;
+    text-align: justify;
+    /* text-align: center; */
+}
+
+.baseline{
+    vertical-align: text-bottom;
+}
