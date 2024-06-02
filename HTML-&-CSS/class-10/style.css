@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* display: inline */
+/* display: block */
+/* display: inline-block */
+/* display: none */
+/* display: flex */
+/* display: grid */
+
+
+/* div{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+} */
+
+/* h1{
+    display: inline;
+    width: 10px;
+}
+a{
+    display: block;
+}
+img{
+    display: none;
+    visibility: hidden;
+    width: 50px;
+} */
+
+
+/* li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgb(241, 164, 164);
+}
+
+ul{
+    text-align: end;
+}
+div{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+/* position relative */
+/* position absolute */
+/* position static */
+/* position fixed */
+
+.parent{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: #d3d3d3;
+    height: 300vh;
+}
+.children{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.green{
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.blue{
+    background-color: blue;
+    position: fixed;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
