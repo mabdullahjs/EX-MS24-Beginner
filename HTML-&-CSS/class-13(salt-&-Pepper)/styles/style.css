@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* navbar started */
+.logo{
+    width: 165px;
+}
+.nav-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+.franchise{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.order-btn{
+    background-color: #ed1c24;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.arrow-icon{
+    color: #ed1c24;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+/* navbar ended */
+
+/* container started */
+.container-img{
+    width: 100%;
+}
+/* container ended */

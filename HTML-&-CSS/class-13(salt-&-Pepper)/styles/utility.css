@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+}
+
+/* utility classes */
+
+
+/* flex classes started */
+
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-5{
+    gap: 25px;
+}
+
+/* flex classes ended */
+
+/* margin classes started */
+.m1{
+    margin: 5px;
+}
+.m2{
+    margin: 10px;
+}
+.m3{
+    margin: 15px;
+}
+.m4{
+    margin: 20px;
+}
+.m5{
+    margin: 25px;
+}
+.mt1{
+    margin-top: 5px;
+}
+.mt2{
+    margin-top: 10px;
+}
+.mt3{
+    margin-top: 15px;
+}
+.mt4{
+    margin-top: 20px;
+}
+.mt5{
+    margin-top: 25px;
+}
+
+.mx1{
+    margin: 0px 5px;
+}
+
+.my-{
+    margin: 5px 0px;
+}
+/* margin classes ended */
+
+
+/* padding classes start */
+.p1{
+    padding: 5px;
+}
+.p2{
+    padding: 10px;
+}
+.p3{
+    padding: 15px;
+}
+.p4{
+    padding: 20px;
+}
+.p5{
+    padding: 25px;
+}
+.pt1{
+    padding-top: 5px;
+}
+.pt2{
+    padding-top: 10px;
+}
+.pt3{
+    padding-top: 15px;
+}
+.pt4{
+    padding-top: 20px;
+}
+.pt5{
+    padding-top: 25px;
+}
+
+.px1{
+    padding: 0px 5px;
+}
+
+.py-{
+    padding: 5px 0px;
+}
+
+/* padding classes ended */
+
+
+.text-center{
+    text-align: center;
+}
+
+.border-sm{
+    border: 1px solid black;
+}
+
+.bg-dark{
+    background-color: #000000;
+}
+.text-white{
+    color: #ffffff;
+}
