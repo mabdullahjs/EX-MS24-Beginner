@@ -87,4 +87,8 @@
 
 
 
-var fullname = 'abdullah'
+// var fullname = 'abdullah'
+
+
+var rose = 'flower';
+var Rose = 'abc'
