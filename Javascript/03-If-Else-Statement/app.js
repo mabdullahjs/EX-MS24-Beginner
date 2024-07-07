@@ -1,5 +1,8 @@
 // console.log('hello world!');
 
+// var username = 'abdullah';
+// console.log(typeof(username))
+
 // comparision operator
 // >
 // <
@@ -191,6 +194,121 @@ var num1 = 10;
 //     console.log('papa nahi maan rha')
 // }else{
 //     console.log('ammi keh rhi hain chalang maarlongi');
+// }
+
+
+
+
+
+
+
+
+// user sa chem,phy,eng,urdu in subjects ka numbers lena hain; total marks = 400; percentage nikaalni haa;agar percentage 80 sa bari haa to A+ grade, 70 > A grade 60> B grade else failed 
+
+
+
+
+// console.log(
+//     ((10 + 5 * 2 === 20 || 30 / 2 <= 15) && (18 % 3 === 0 || 25 >= 25)) ||
+//     ((4 ** 2 === 16 && 5 % 3 != 0) || (45 / 5 === 9 && 7 < 14)) &&
+//     ((6 !== "6" && typeof 10 === 'number') || (20 + 30 > 60 && !true))
+//   );
+// console.log(
+//    true || true && true
+//   );
+
+
+
+//   (10 + 5 * 2 === 20 || 30 / 2 <= 15)
+
+//   true
+
+// (18 % 3 === 0 || 25 >= 25)
+
+// true || true
+
+
+// (4 ** 2 === 16 && 5 % 3 != 0)
+
+// true
+
+
+// (45 / 5 === 9 && 7 < 14)
+
+// true
+
+
+// (6 !== "6" && typeof 10 === 'number')
+
+// true && true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var hour = 24;
+
+// if(hour > 24 || hour < 1){
+//     console.log('sahi nahi ha bhai!')
+// } else if(hour >= 22 || hour <= 5){
+//     console.log('good night')
+// } else if(hour > 5 && hour <= 12){
+//     console.log('good morning')
+// } else if(hour > 12 && hour <= 16){
+//     console.log('good afternoon')
+// } else {
+//     console.log('good evening')
+// }
+
+
+
+
+
+
+// a , e, i ,o ,u
+
+// user aik character daiga prompt ka through b
+
+
+// var char = prompt('Enter any one character');
+
+// if(char.length > 1 || char.length < 1 || char === ' '){
+//     console.log('give any one character')
+// } else if(char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'){
+//     console.log('its a vowel')
+// }else{
+//     console.log('its not a vowel');
+// }
+
+
+
+
+
+
+
+// var num = 15;
+
+// if(num >= 5){
+//     console.log('num bara haa')
+//     if(num > 7){
+//         console.log('num sabsa bara ha');
+//     }else{
+//         console.log('num bara sa chota ha');
+//     }
+// }else{
+//     console.log('num chota ha');
 // }
 
 
