@@ -73,10 +73,223 @@
 
 
 
-function greetUser(){
-    // var username = prompt('enter your name')
-    console.log('hello abdullah');
+// function greetUser(){
+//     // var username = prompt('enter your name')
+//     console.log('hello abdullah');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var username = "abdullah";
+// var age = 20;
+// var isLoggedIn = true;
+
+// console.log(username);
+
+// alert()
+// prompt()
+// typeof()
+// Number()
+
+
+
+// string
+// number
+// boolean
+
+
+// var num1 = "20";
+// var num2 = "10";
+
+// console.log(Number(num1) + +num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(20 < 202);
+
+
+
+
+// var bankBalance = 100000;
+
+// if(20 > 20 || 10 < 5){
+//     console.log('if chal rha ha.')
+// }else{
+//     console.log('else chal rha ha')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log('A')
+// console.log('B')
+// console.log('D')
+// console.log('U')
+// console.log('L')
+// console.log('L')
+// console.log('A')
+// console.log('H')
+
+
+
+
+
+// function user() {
+//     console.log('A')
+//     console.log('B')
+//     console.log('D')
+//     console.log('U')
+//     console.log('L')
+//     console.log('L')
+//     console.log('A')
+//     console.log('H')
+// }
+// user()
+// user()
+
+
+// var hello;
+// console.log(hello);
+
+
+// function greetUser(username , age , email){
+//     console.log('hello ' + email);
+// }
+
+// greetUser("abdullah" , "" , "email")
+
+
+
+
+
+
+
+
+
+
+
+
+//nested function
+//return keyword
+//local or global variable
+
+
+
+
+// var city = "karachi"; //global variable
+
+// function showDetail(username){
+//     console.log("hello " + username + " and he live in " + city)
+//     var state = "sindh"; //local variable
+// }
+
+// console.log(state)
+// showDetail('abdullah');
+
+
+
+
+
+
+
+
+// function greetUser (){
+//     console.log('hello abdullah');
+// }
+
+// function headClicked(){
+//     console.log('h1 clicked')
+// }
+
+
+var h1 = document.querySelector("#head");
+var para = document.querySelector('#para');
+var div = document.querySelector('div');
+// h1.innerHTML = "changed through javascript"
+
+function changeHead(){
+    // h1.innerHTML = "change through javascript"
+    // para.innerHTML = "para through <br/> javascript"
+    div.innerHTML = "<h1>Hello world</h1><ul><li>Home</li><li>about</li><li>contact</li></ul>"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
