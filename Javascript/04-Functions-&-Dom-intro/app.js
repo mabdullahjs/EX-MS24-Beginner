@@ -256,16 +256,160 @@
 // }
 
 
-var h1 = document.querySelector("#head");
-var para = document.querySelector('#para');
-var div = document.querySelector('div');
-// h1.innerHTML = "changed through javascript"
+// var h1 = document.querySelector("#head");
+// var para = document.querySelector('#para');
+// var div = document.querySelector('div');
+// // h1.innerHTML = "changed through javascript"
 
-function changeHead(){
-    // h1.innerHTML = "change through javascript"
-    // para.innerHTML = "para through <br/> javascript"
-    div.innerHTML = "<h1>Hello world</h1><ul><li>Home</li><li>about</li><li>contact</li></ul>"
-}
+// function changeHead(){
+//     // h1.innerHTML = "change through javascript"
+//     // para.innerHTML = "para through <br/> javascript"
+//     div.innerHTML = "<h1>Hello world</h1><ul><li>Home</li><li>about</li><li>contact</li></ul>"
+// }
+
+
+
+
+// var div = document.querySelector('div');
+// div.innerHTML = "<h1 id='div-head'>Hello JS</h1>"
+
+
+
+
+// var div = document.querySelector('div');
+
+// function changedItems(){
+//     if(div.innerHTML === "hello"){
+//         div.innerHTML = "world"
+//     }else{
+//         div.innerHTML = "hello"
+//     }
+// }
+
+
+
+
+// function() hum expect krta hain ka function kuch return kra.
+
+
+
+
+
+
+
+// function greetUser(username){
+//     console.log("hello " + username)
+// }
+
+// greetUser("abdullah")
+// console.log(greetUser("abdullah"));
+// console.log(typeof("abdullah"));
+
+
+
+
+
+
+
+
+
+// function sum(num1 , num2){
+//     var sumOfNumber = num1 + num2
+//     return sumOfNumber
+// }
+
+// var sumOfAllProducts = sum(10 , 20);
+// console.log(sumOfAllProducts)
+// console.log(sum(30 , 40))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function subtract(num1 , num2 , num3){
+//     return num1 - num2 - num3
+//     // console.log('hello') xxxxx
+// }
+
+// console.log(subtract(10 , 20 , 30));
+
+
+
+
+
+
+
+
+
+// function outerfunc(){
+//     console.log('outer function called')
+//     function innerfunc(){
+//         console.log('inner function called')
+//     }
+//     innerfunc()
+// }
+
+// outerfunc()
+
+
+
+
+
+
+
+
+
+
+//recurrsion
+
+// var num = 0;
+
+// function addNumber(){
+//     if(num < 10){
+//         num += 1;
+//         console.log(num)
+//         addNumber()
+//     }else{
+//         console.log('else chal rha ha');
+//     }
+// }
+
+// addNumber()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
