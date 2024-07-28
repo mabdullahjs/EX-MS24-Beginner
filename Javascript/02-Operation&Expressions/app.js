@@ -131,17 +131,52 @@
 
 //percentage calculator
 
-var totalMarks = 400;
-var engMarks = +prompt('enter your english marks');
-var urduMarks = +prompt('enter your urdu marks');
-var chemMarks = +prompt('enter your chemistry marks');
-var phyMarks = +prompt('enter your physics marks');
+// var totalMarks = 400;
+// var engMarks = +prompt('enter your english marks');
+// var urduMarks = +prompt('enter your urdu marks');
+// var chemMarks = +prompt('enter your chemistry marks');
+// var phyMarks = +prompt('enter your physics marks');
 
-var obtainedMarks = engMarks + urduMarks + chemMarks + phyMarks;
+// var obtainedMarks = engMarks + urduMarks + chemMarks + phyMarks;
 
-var percentage = obtainedMarks / totalMarks * 100;
+// var percentage = obtainedMarks / totalMarks * 100;
 
-console.log("you got " + percentage + "%");
+// console.log("you got " + percentage + "%");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// pre increment
+// post increment
+
+// num++ post increment
+// ++num pre increment
+
+// var num = 10;
+// console.log(num++); // 10 uska baad 11
+// console.log(++num); // 11 + 1 = 12 
+
+
+// var cal = num++ + num++ + ++num + num++ + ++num;
+// console.log(10 + 11 + 13 + 13 + 15)
+// console.log(cal)
+
+
+
+
+
+
 
 
 
