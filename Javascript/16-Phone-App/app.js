@@ -63,7 +63,15 @@ const arr = [{
     price: 300000
 }]
 
-console.log(arr);
+// console.log(arr);
+const getDataFromLocalStorage = JSON.parse(localStorage.getItem("cartItem"))
+console.log("localstorage data",getDataFromLocalStorage);
+
+let cartItems = []
+if(getDataFromLocalStorage != null){
+    cartItems = getDataFromLocalStorage;
+}
+
 
 const div = document.querySelector("#phones");
 for (let i = 0; i < arr.length; i++) {
@@ -79,6 +87,20 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 
-function addToCart(index){
-    console.log('add to cart' , index); 
+function addToCart(index) {
+    if (cartItems.includes(arr[index])) {
+        arr[index].quantity += 1;
+    } else {
+        arr[index].quantity = 1
+        cartItems.push(arr[index]);
+    }
+    console.log(cartItems);
+
 }
+
+const checkoutBtn = document.querySelector("#checkout-btn")
+
+checkoutBtn.addEventListener("click" , function(){
+    localStorage.setItem("cartItem" , JSON.stringify(cartItems))
+    window.location = "checkout.html"
+})
