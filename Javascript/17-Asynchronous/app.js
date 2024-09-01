@@ -464,6 +464,135 @@ const fruit = ["apple", "banana", "orange", "mango", "kiwi"];
 
 
 
+// promises
+
+// pending  
+// fulfilled 
+// rejected
+
+
+
+
+// const asyncTask = new Promise((resolve, reject) => {
+//     let error = false;
+//     if (error) {
+//         setTimeout(() => {
+//             console.log("async task")
+//             resolve()
+//         }, 1000)
+//     }else{
+//         reject()
+//     }
+// })
+
+// asyncTask
+//     .then(() => {
+//         console.log("task succesful")
+//     })
+//     .catch(() => {
+//         console.log("task rejected")
+
+//     })
+
+
+
+
+
+// let bankBalance = 200000;
+
+// const shaadiScnz = new Promise((resolve , reject)=>{
+//     if(bankBalance > 500000){
+//         setTimeout(()=>{
+//             resolve("shaadi mubarak")
+//         } , 2000)
+//     }else{
+//         setTimeout(()=>{
+//             reject("Chalo shaba katto")
+//         } , 2000)
+//     }
+// })
+
+// console.log(typeof shaadiScnz)
+// shaadiScnz
+// .then((res)=>{
+//     console.log(res)
+//     console.log(shaadiScnz);
+    
+// }).catch((err)=>{
+//     console.log(err);
+//     console.log(shaadiScnz);
+    
+// })
+
+
+
+
+
+
+
+
+
+function carFinding(model){
+    return new Promise((resolve , reject)=>{
+        if(model > 2010){
+            setTimeout(() => {
+                resolve("maalik waara ka sooda haa.")
+            }, 2000);
+        }else{
+            setTimeout(() => {
+                reject("maalik loot ka agaye ho");
+                
+            }, 2000);
+        }
+    })
+}
+
+// carFinding(2015)
+// .then((res)=>{
+//     console.log("pehla .then", res);
+//     return res + "return krwadia"
+// }).then((res)=>{
+//     console.log("dosra .then",res);
+    
+// })
+// .catch((err)=>{
+//     console.log(err);
+    
+// })
+
+
+
+// aler("hello world");
+// console.log("console after alert")
+
+
+// try{
+//     aler("hello world");
+// }catch(error){
+//     console.error(error);
+    
+// }
+
+
+// console.log("console after alert")
+
+
+
+
+
+
+// async function runAsynTask(){
+//     try {
+//         const carResult = await carFinding(2020)
+//         console.log(carResult)
+//     } catch (error) {
+//         console.log("catch chal rha ha. ",error);
+        
+//     }
+// }
+
+
+// runAsynTask()
 
 
 
@@ -478,20 +607,31 @@ const fruit = ["apple", "banana", "orange", "mango", "kiwi"];
 
 
 
+// Application programming interface
+
+// {
+//     "username": "abdullah"
+// }
+
+
+fetch('https://jsonplaceholder.typicode.com/users')
+.then((res)=>{
+    return res.json()
+}).then((res)=>{
+    console.log(res);
+}).catch((err)=>{
+    console.log(err);
+    
+})
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+// map , filter , foreach , reduce
+// promises
+// then catch || async await
+// api sa data fetch krna haa
+// api sa jo data araha ha usko screen pa render krwana haa.. 
 
 
 
