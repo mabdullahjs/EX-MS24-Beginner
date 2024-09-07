@@ -517,11 +517,11 @@ const fruit = ["apple", "banana", "orange", "mango", "kiwi"];
 // .then((res)=>{
 //     console.log(res)
 //     console.log(shaadiScnz);
-    
+
 // }).catch((err)=>{
 //     console.log(err);
 //     console.log(shaadiScnz);
-    
+
 // })
 
 
@@ -532,20 +532,20 @@ const fruit = ["apple", "banana", "orange", "mango", "kiwi"];
 
 
 
-function carFinding(model){
-    return new Promise((resolve , reject)=>{
-        if(model > 2010){
-            setTimeout(() => {
-                resolve("maalik waara ka sooda haa.")
-            }, 2000);
-        }else{
-            setTimeout(() => {
-                reject("maalik loot ka agaye ho");
-                
-            }, 2000);
-        }
-    })
-}
+// function carFinding(model){
+//     return new Promise((resolve , reject)=>{
+//         if(model > 2010){
+//             setTimeout(() => {
+//                 resolve("maalik waara ka sooda haa.")
+//             }, 2000);
+//         }else{
+//             setTimeout(() => {
+//                 reject("maalik loot ka agaye ho");
+
+//             }, 2000);
+//         }
+//     })
+// }
 
 // carFinding(2015)
 // .then((res)=>{
@@ -553,11 +553,11 @@ function carFinding(model){
 //     return res + "return krwadia"
 // }).then((res)=>{
 //     console.log("dosra .then",res);
-    
+
 // })
 // .catch((err)=>{
 //     console.log(err);
-    
+
 // })
 
 
@@ -570,7 +570,7 @@ function carFinding(model){
 //     aler("hello world");
 // }catch(error){
 //     console.error(error);
-    
+
 // }
 
 
@@ -587,7 +587,7 @@ function carFinding(model){
 //         console.log(carResult)
 //     } catch (error) {
 //         console.log("catch chal rha ha. ",error);
-        
+
 //     }
 // }
 
@@ -614,15 +614,70 @@ function carFinding(model){
 // }
 
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((res)=>{
-    return res.json()
-}).then((res)=>{
-    console.log(res);
-}).catch((err)=>{
-    console.log(err);
-    
-})
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then((res)=>{
+//     return res.json()
+// }).then((res)=>{
+//     console.log(res);
+// }).catch((err)=>{
+//     console.log(err);
+
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const div = document.querySelector(".items");
+
+
+// fetch("https://course-admission-portal.vercel.app/api/v1/student")
+//     .then(res => res.json())
+//     .then(res => {
+//         console.log(res)
+//     })
+//     .catch(err => console.log(err))
+
+
+
+
+
+// async function getData (){
+
+// }
+
+const getData = async () => {
+    try {
+        const response = await fetch("https://course-admission-portal.vercel.app/api/v1/student")
+        const data = await response.json();
+        console.log(data);
+        data.map((item)=>{
+            div.innerHTML += `
+            <div>
+            <h1>${item.fullName}</h1> <hr/>
+            </div>
+            `
+        })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+
+getData()
 
 
 
